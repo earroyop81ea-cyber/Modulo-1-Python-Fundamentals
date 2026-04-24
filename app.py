@@ -134,7 +134,7 @@ def ejercicio4():
         nuevo_descuento = st.number_input("Nuevo porcentaje de descuento (%)", min_value=0.0, max_value=100.0)
 
         if st.button("Actualizar empleado"):
-            st.session_state.empleados[idx] = Empleado(
+            st.session_state.empleados[idx] = lcp.Empleado(
                 st.session_state.empleados[idx].nombre,
                 nuevo_salario,
                 nuevo_bono,
