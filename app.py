@@ -4,7 +4,7 @@ import numpy as np
 
 # --- Sección Home ---
 def home():
-    st.title("Especialización en Python for Analytics")
+    st.title("Proyecto Aplicado en Streamlit – Python Fundamentals")
     st.image("logo.png", width=120)
     st.write("Estudiante: Enrique Arroyo")
     st.write("Módulo 1: Python Fundamentals")
